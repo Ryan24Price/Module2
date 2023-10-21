@@ -1,0 +1,26 @@
+Free Bootstrap 5 Resume/CV Template for Software Developers
+
+Theme name:
+=======================================================================
+Shine
+
+Theme version:
+=======================================================================
+v1.0
+
+Release Date:
+=======================================================================
+2023-06-29
+
+Author: 
+=======================================================================
+Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/)
+
+Contact:
+=======================================================================
+Web: http://themes.3rdwavemedia.com/
+Email: themes@3rdwavemedia.com
+Twitter: @3rdwave_themes
+
+License: 
+=======================================================================
