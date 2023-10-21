@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 2.1</title>
+    <meta name="charset" content="UTF-8" />
+    <meta name="description" content="Module 2 Lab 1 Exercise" />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+    <meta name="author" content="Ryan Price" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/Lab 2.1/index.html">Home</a>
+        <a href="/Lab 2.1/form.html">Form</a>
+      </nav>
+    </header>
+    <main>
+      <h1>My HTML learning journey</h1>
+      <article>
+        <h2>Learning elements - div, span, p, pre, ul, li, ol, article</h2>
+        <div>
+          Pineapples
+          <img src="Assets/pineapples.jpg" alt="Pineapples" height="100" />
+        </div>
+        <div>
+          Blueberries
+          <img src="Assets/blueberries.jpg" alt="Blueberries" height="100" />
+        </div>
+        <div>
+          Strawberries
+          <img src="Assets/strawberries.jpg" alt="Strawberries" height="100" />
+        </div>
+        <span>Pineapples are delicious.</span>
+        <span>Blueberries are tasty.</span>
+        <span>Strawberries are yummy.</span>
+        <p>p represents paragraph</p>
+        <pre>
+            Text in         a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both      spaces and
+            line breaks
+            </pre
+        >
+        <ul>
+          <li>mazda</li>
+          <li>honda</li>
+          <li>kia</li>
+        </ul>
+        <ol>
+          <li>washington</li>
+          <li>new york</li>
+          <li>atlanta</li>
+        </ol>
+      </article>
+      <article>
+        <h2>from the Mozilla website</h2>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">First header</th>
+              <th>Second header</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>First cell - first row</td>
+              <td>Second cell - first row</td>
+              <td>Third cell - first row</td>
+            </tr>
+            <tr>
+              <td>First cell - second row</td>
+              <td>Second cell - second row</td>
+              <td rowspan="2">Third cell - second row</td>
+            </tr>
+            <tr>
+              <td>First cell - third row</td>
+              <td>Second cell - third row</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article>
+        <img src="https://picsum.photos/200/300" alt="" />
+
+        <video autoplay muted width="250" height="250">
+          <source
+            src="https://cdn.pixabay.com/vimeo/774507949/sea-140111.mp4?width=1280&hash=0da1a522174ae5134fbd844bc4b9881db721c994"
+          />
+
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+
+        <audio controls autoplay src="/Lab 2.1/Assets/future mix1.mp3">
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
+      </article>
+    </main>
+    <footer>Copyright 2021 &copy;</footer>
+  </body>
+</html>
